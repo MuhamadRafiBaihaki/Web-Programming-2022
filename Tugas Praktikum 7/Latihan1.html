@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 7 </title>
+    <script>
+        function cariteman() {
+            let formcari = document.getElementById("caritmn");  
+            let str = formcari.nama.value;
+        document.getElementById("hasil").innerHTML = str;
+        }
+    </script>
+</head>
+<body>
+    <form id="caritmn">
+        Cari Siswa :
+        <input type="text" name="nama" value="">
+        <input type="button" value="Cari" onclick="cariteman()">
+    </form>
+    <hr>
+    <div>
+        Nama yang anda cari : <span id="hasil"></span>
+    </div>
+</body>
+</html>
