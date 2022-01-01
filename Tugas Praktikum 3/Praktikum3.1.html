@@ -1,0 +1,60 @@
+<!doctype html><html lang="id"><head> 
+    <title>praktikum3.1</title> 
+    <meta charset="UTF-8"> 
+   </head>
+   <body>
+    <fieldset>
+    <form method="POST" action="http://dominospizza.com"> 
+     <h1>Domino's Pizza | Pizza-on-Demand</h1> 
+     <h3>Our pizzas are available for delivery, Build your custom pizza and we will deliver it within an hour.</h3> 
+     <div> 
+      <p>Your Information</p> 
+      <label for="Name">Name: </label> 
+      <input type="text" id="Name" name="Name"> 
+      <br> 
+      <label for="Address">Address: </label> 
+      <textarea id="Address" name="Address" cols="30" rows="3">
+         </textarea> 
+      <br> 
+      <label for="nohp">Telephone Number: </label> 
+      <input type="number" id="nohp" name="nohp"> 
+      <br> 
+      <label for="email">Email: </label> 
+      <input type="email" id="email" name="email"> 
+      <br> 
+      <label for="deliv">Delivery Instruction</label> 
+      <br> 
+      <textarea id="deliv" name="deliv" rows="6" cols="70">
+         </textarea> 
+      <br> 
+     </div> 
+     <br> 
+     <b>Design Your Dream Pizza:</b> 
+     <br>Pizza specs 
+     <br> 
+     <br> 
+     <div> 
+      <p>Crust (Choose one):</p> 
+      <ul>
+       <li><input type="radio" name="crs"> Classic White </li> 
+       <li><input type="radio" name="crs"> Multigrain </li> 
+       <li> <input type="radio" name="crs"> Cheese-Stuffed Crust </li> 
+       <li><input type="radio" name="crs"> Gluten-free </li> 
+      </ul> 
+      <p>Toppings (Choose as many as you want): </p> 
+      <ul> 
+       <li><input type="checkbox" id="rsc" name="rsc" checked> <label for="rsc">Red Sauce</label> </li> 
+       <li><input type="checkbox" id="wsc" name="wsc"> <label for="wsc">White Sauce</label> </li> 
+       <li><input type="checkbox" id="cheese" name="cheese"> <label for="cheese">Mozzarella Cheese</label> </li> 
+       <li><input type="checkbox" id="ppr" name="ppr"> <label for="ppr">Pepperoni</label> </li> 
+       <li><input type="checkbox" id="jamur" name="jamur"> <label for="jamur">Mushrooms</label> </li> 
+       <li><input type="checkbox" id="pprs" name="pprs"> <label for="pprs">Peppers</label> </li> 
+       <li><input type="checkbox" id="ancv" name="ancv"> <label for="ancv">Anchovies</label></li> 
+      </ul> 
+      <br>
+      <p>Number<br> How Many Pizzas: <select> <option>1</option><option>2</option><option>3</option> </select> <br> <input type="submit" value="Bring me a pizza"> <input type="reset" value="reset"> </p> 
+     </div> 
+    </form>
+    </fieldset>
+   
+  </body></html>
